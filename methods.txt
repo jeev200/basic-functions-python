@@ -1,0 +1,64 @@
+### Some of the basic methods used in the python
+
+## type : To see the type of the variable
+## len : To see the length of the variable
+## count : TO get the count of the letters in the string
+## find : to get the index of the letter 
+## help : To get the help of the object or a methods
+
+
+### Some of the methods used for list ( Immutable)
+
+## append : To append the string into a list
+## insert : To insert the string into a list by using the index
+## extend : In order to insert the values of the list 2 into list 1 and make into one list
+## remove : In order to remove the values in the list
+## pop : It is used to remove the last value of the list and it also can be stored in a variable and in that way ,
+ we can even return the value
+## reverse: To reverse the values of the lists
+## sort : To sort the values of the list . For desc order example : list.sort(reverse=True)
+we also have sorted method and get the sorted values to store them into a variable.
+## min : Min num of that list
+## max : Max num of the list
+## sum : sum of the list
+## index : To find the index of the list
+## in : Gets boolean values if value is there in the list gives true or else false
+## enumerate() : To get the index and the values of the list by using for loop
+   for index, course in enumerate(courses, start = 1):
+    print(index, course)
+## Join : In order to seperate the values of list with specific format 
+eg: course_str = ','.join(courses)
+    print(course_str)
+## split : In order to split the values of the list by specifying the spec character to be used to split and 
+store them into the another list
+eg:  new_course = course_str.split(',')
+    print(new_course)
+
+## Create am empty list : empty_list = [] , empty_list =list()
+
+## Some of the methods used for tuples (Cant be modified , Immutable)
+
+Tuples are same as lists , but instead of the square brackets we used round brackets to store the values.
+Except some of the methods like insert , append remaining all methods are same as the list
+## Create am empty tuple : empty_tuple = () , empty_tuple =tuple()
+
+## Some of the methods used for set (get rid of the duplicate values and doesnot matters abt order, uses '}')
+
+## intersection : To see the common values in two sets
+eg : cs_course = {'Ml','AI','Azure','Math','Drawing'}
+     art_course = {'History','Math','Drawing'}
+     print(cs.course.intersection(art_course))
+
+## difference : Give the values remaining values another than common values
+
+cs_course = {'Ml','AI','Azure','Math','Drawing'}
+art_course = {'History','Math','Drawing'}
+print(cs_course.difference(art_course))
+
+## union : give all the values combned into single set without duplicate values.
+
+## Create am empty set :  empty_set =set()
+
+### Dictionaries ( working with key-value pairs, ,mutable)
+
+##
